@@ -1,0 +1,21 @@
+{
+  "show-peer-errors": "available",
+  "is-c2k-equipment": "available",
+  "supports-inline-attachments": "available",
+  "supports-keep-receipts": "available",
+  "supports-location-sharing": "available",
+  "supports-media-v2": "available",
+  "supports-st-v1": "available",
+  "supports-ca-v1": "available",
+  "supports-be-v1": "available",
+  "supports-ack-v1": "available",
+  "supports-fsm-v1": "available",
+  "supports-fsm-v2": "available",
+  "supports-fsm-v3": "available",
+  "supports-ii-v1": "available",
+  "supports-impact-v1": "available",
+  "supports-update-attachments-v1": "available",
+  "supports-autoloopvideo-v1": "available",
+  "supports-activity-sharing-v1": "available",
+  "optionally-receive-typing-indicators": "available"
+}

@@ -1,0 +1,60 @@
+city,country,service
+San Jose,US,Amazon
+Kuala Lumpur,MY,Amazon
+Zaragoza,ES,Amazon
+Zurich,CH,Amazon
+Milan,IT,Amazon
+Tel Aviv,IL,Amazon
+Hyderabad,IN,Amazon
+Columbus,US,Amazon
+Osaka,JP,Amazon
+Boardman,US,Amazon
+Melbourne,AU,Amazon
+Querétaro City,MX,Amazon
+City of London,GB,Amazon
+Stockholm,SE,Amazon
+Tokyo,JP,Amazon
+Cape Town,ZA,Amazon
+Auckland,NZ,Amazon
+Mumbai,IN,Amazon
+Jakarta,ID,Amazon
+Hong Kong,HK,Amazon
+Dubai,AE,Amazon
+Incheon,KR,Amazon
+Sydney,AU,Amazon
+Singapore,SG,Amazon
+Frankfurt am Main,DE,Amazon
+Bangkok,TH,Amazon
+Montreal,CA,Amazon
+Paris,FR,Amazon
+Taipei,TW,Amazon
+São Paulo,BR,Amazon
+Ashburn,US,Amazon
+Calgary,CA,Amazon
+Hong Kong,HK,Amazon
+Manama,BH,Amazon
+Dublin,IE,Amazon
+Boston,US,Apple
+Chicago,US,Apple
+Chicago,US,Apple
+Miami,US,Apple
+Frankfurt am Main,DE,Apple
+Osaka,JP,Apple
+Leesburg,US,Apple
+Berlin,DE,Apple
+Salford,GB,Apple
+Los Angeles,US,Apple
+Singapore,SG,Apple
+São Paulo,BR,Apple
+Seattle,US,Apple
+Stockholm,SE,Apple
+London,GB,Apple
+Banqiao,TW,Apple
+Tokyo,JP,Apple
+San Jose,US,Apple
+Madrid,ES,Apple
+Mumbai,IN,Apple
+New York City,US,Apple
+Copenhagen,DK,Apple
+Sydney,AU,Apple
+Minneapolis,US,Apple

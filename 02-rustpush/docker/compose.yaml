@@ -1,0 +1,9 @@
+services:
+  imessage-interactive:
+    build: .
+    image: imessage:ubuntu-24.04
+    container_name: imessage-interactive
+    volumes:
+      - ./mount/:/app
+    working_dir: /app
+    command: tail -f /dev/null

@@ -1,0 +1,6 @@
+pandas
+matplotlib
+cartopy
+geopy
+pycountry
+pycountry_convert
