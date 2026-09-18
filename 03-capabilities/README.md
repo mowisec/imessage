@@ -17,12 +17,10 @@ This experiment implements the two-stage fingerprinting pipeline of Figure 3: it
 ├── capabilities-ipsw/
 │   └── capabilities-results/     # our pre-computed results: 116 <IPSW name>/capabilities.json
 └── capability-analysis/
-    ├── CapAnalysis.ipynb         # Figures 4 and 5, per-version capability statistics
-    ├── CapHarvesting.ipynb       # Table 2: minimal capability set separating device types
-    ├── compare-versions.ipynb    # per-version added/removed/changed capability diffs
-    ├── correlation-analysis.ipynb
-    ├── ours_2025-12-17_01.csv    # harvested IDS capabilities, our 8 devices (handles redacted)
-    └── vos.csv                   # harvested IDS capabilities, Vision Pro (consented participant)
+    ├── 1_extract_caps.ipynb      # Figures 4 and 5, per-version capability statistics
+    ├── 2_fingerprint_devs.ipynb  # Table 2: minimal capability set separating device types
+    ├── harvested_devices.csv     # harvested IDS capabilities, our 8 devices (handles redacted)
+    └── harvested_visionpro.csv   # harvested IDS capabilities, Vision Pro (consented participant)
 ```
 
 ## Re-running the static extraction from an IPSW
@@ -76,5 +74,5 @@ Export the per-handle results to JSON and convert them into the capability × de
 python3 scripts/json_to_cap_matrix.py harvest.json capability-analysis/mine.csv
 ```
 
-The converter normalises `true`/`false` to `T`/`F`, renders omitted capabilities as `n/a` (the MNAR signal modelled in §4.2.2), and flags disagreeing observations as `CONFLICT(a|b)`. Point the `dataset_our` variable in `CapHarvesting.ipynb` at your CSV to analyse it.
+The converter normalises `true`/`false` to `T`/`F`, renders omitted capabilities as `n/a` (the MNAR signal modelled in §4.2.2), and flags disagreeing observations as `CONFLICT(a|b)`. Point the `dataset_our` variable in `2_fingerprint_devs.ipynb` at your CSV to analyse it.
 

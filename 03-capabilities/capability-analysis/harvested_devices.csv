@@ -1,4 +1,4 @@
-Capability,<<REDACTED>>,<<REDACTED>>,<<REDACTED>>,<<REDACTED>>,<<REDACTED>>,<<REDACTED>>,<<REDACTED>>,<<REDACTED>>
+Capability,mailto:owner-a@example.org#0,mailto:owner-a@example.org#1,mailto:owner-a@example.org#2,mailto:owner-b@example.org#0,mailto:owner-c@example.org#0,mailto:owner-c@example.org#1,mailto:owner-c@example.org#2,mailto:owner-c@example.org#3
 client-data.ec-version,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
 client-data.kt-version,5.0,5.0,5.0,5.0,5.0,5.0,5.0,5.0
 client-data.nicknames-version,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
